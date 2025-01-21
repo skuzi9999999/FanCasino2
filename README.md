@@ -1,135 +1,149 @@
-<h2><span style="color:#ff0000"><strong>&nbsp;Opensource-casino-v10.1 JANUARY 21st 2024</strong></span></h2>
+# [Bootstrap](https://getbootstrap.com/)
 
-<p><strong>Open source slots casino script (formerly Goldsvet) v10.3</strong></p>
+[![Slack](https://bootstrap-slack.herokuapp.com/badge.svg)](https://bootstrap-slack.herokuapp.com/)
+![Bower version](https://img.shields.io/bower/v/bootstrap.svg)
+[![npm version](https://img.shields.io/npm/v/bootstrap.svg)](https://www.npmjs.com/package/bootstrap)
+[![Build Status](https://img.shields.io/travis/twbs/bootstrap/master.svg)](https://travis-ci.org/twbs/bootstrap)
+[![devDependency Status](https://img.shields.io/david/dev/twbs/bootstrap.svg)](https://david-dm.org/twbs/bootstrap#info=devDependencies)
+[![NuGet](https://img.shields.io/nuget/v/bootstrap.svg)](https://www.nuget.org/packages/Bootstrap)
 
-<p><span style="color:#ff0000"><strong>V10.1 January 2024 release adds Laravel 10 and PHP 8.1+ support and expands Shops Multi Tier Features</strong></span></p>
+Bootstrap is a sleek, intuitive, and powerful front-end framework for faster and easier web development, created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thornton](https://twitter.com/fat), and maintained by the [core team](https://github.com/orgs/twbs/people) with the massive support and involvement of the community.
 
-<p><span style="color:#ff0000"><strong>v10.1 now supports SHOPS [aka agents/multi vendors]&nbsp;</strong></span></p>
-<p><span style="color:#ff0000"><strong>
-	Short Videos Listed on 
-https://www.youtube.com/watch?v=Wdhf8XEsabk  <br />Open Source v10 Demo and Setup <br />
-----------------------------------------------------------------------------------------<br />
-https://www.youtube.com/watch?v=EhhDy9GdvkY <br />Also you are invited to watch 377Bet backend short video [closed source platform]<br />
+To get started, check out <https://getbootstrap.com/>!
 
-</strong></span></p>
 
-<p><span style="color:#ff0000"><strong>Multiple fixes, merged single v10 database&nbsp;</strong></span><br />
-Demo USER /Demo Play games is added and activated&nbsp;<br />
-Added 100 games, bringing total to 1200 games now.</p>
+## Table of contents
 
-<p><span style="color:#ff0000"><strong>install.php available as a minor helper in discord precompiled package</strong></span></p>
+* [Quick start](#quick-start)
+* [Bugs and feature requests](#bugs-and-feature-requests)
+* [Documentation](#documentation)
+* [Contributing](#contributing)
+* [Community](#community)
+* [Versioning](#versioning)
+* [Creators](#creators)
+* [Thanks](#thanks)
+* [Copyright and license](#copyright-and-license)
 
-<p><span style="color:#ff0000"><strong>ALSO NOW SUPPORTS PLUGINS LIKE&nbsp;<br />
-SPORTS BETTING, CRYPTO COMPETITIONS AND STOCKS COMPETITIONS<br />
-PLUGINS AVAILABLE IN DISCORD DOWNLOADS TOO ONLY FOR SUBSCRIBERS&nbsp;</strong></span></p>
 
-<p>This is a Laravel casino app. You need to download game packs for it.</p>
+## Quick start
 
-<p>Official Discord : <a href="https://discord.gg/3QpZNd89WZ"> https://discord.gg/3QpZNd89WZ</a></p>
+Several quick start options are available:
 
-<p>DEMO : <a href="HTTPS:///casino.377PLAY.COM">HTTPS://casino.377PLAY.COM</a>&nbsp;<br />
-V10.1 DEMO : <a href="https://betshop.io">HTTPS://betshop.io</a></p>
+* [Download the latest release](https://github.com/twbs/bootstrap/archive/v3.4.1.zip).
+* Clone the repo: `git clone https://github.com/twbs/bootstrap.git`.
+* Install with [Bower](https://bower.io/): `bower install bootstrap`.
+* Install with [npm](https://www.npmjs.com/): `npm install bootstrap@3`.
+* Install with [Meteor](https://www.meteor.com/): `meteor add twbs:bootstrap`.
+* Install with [Composer](https://getcomposer.org/): `composer require twbs/bootstrap`.
 
-<p><span style="color:#339966">DEMO DISCLAIMER : demo always goes under updates, tests and db flushing, dont use it as a stable website.</span></p>
+Read the [Getting started page](https://getbootstrap.com/docs/3.4/getting-started/) for information on the framework contents, templates and examples, and more.
 
-<p>Join our Discord for game downloads (compatible up to v10):</p>
+### What's included
 
-<p>1100 games total as of december 2023 includes 100 prag pack [ now 1200 ]</p>
+Within the download you'll find the following directories and files, logically grouping common assets and providing both compiled and minified variations. You'll see something like this:
 
-<p><a href="https://discord.gg/HscTu67FSu">https://discord.gg/HscTu67FSu</a></p>
+```
+bootstrap/
+├── css/
+│   ├── bootstrap.css
+│   ├── bootstrap.css.map
+│   ├── bootstrap.min.css
+│   ├── bootstrap.min.css.map
+│   ├── bootstrap-theme.css
+│   ├── bootstrap-theme.css.map
+│   ├── bootstrap-theme.min.css
+│   └── bootstrap-theme.min.css.map
+├── js/
+│   ├── bootstrap.js
+│   └── bootstrap.min.js
+└── fonts/
+    ├── glyphicons-halflings-regular.eot
+    ├── glyphicons-halflings-regular.svg
+    ├── glyphicons-halflings-regular.ttf
+    ├── glyphicons-halflings-regular.woff
+    └── glyphicons-halflings-regular.woff2
+```
 
-<h2>Partner Service</h2>
+We provide compiled CSS and JS (`bootstrap.*`), as well as compiled and minified CSS and JS (`bootstrap.min.*`). CSS [source maps](https://developers.google.com/web/tools/chrome-devtools/javascript/source-maps) (`bootstrap.*.map`) are available for use with certain browsers' developer tools. Fonts from Glyphicons are included, as is the optional Bootstrap theme.
 
-<p><a href="https://promex.me/shop/discordoffers/goldsvet-version-9-complete-php-script-laravel-9-php8/">Promex Partner Service</a></p>
 
-<p>This partner service offers a pre-setup environment for hosting the script, which you can edit after initial setup.</p>
+## Bugs and feature requests
 
-<h2>GeoIP2 City Database</h2>
+Have a bug or a feature request? Please first read the [issue guidelines](https://github.com/twbs/bootstrap/blob/master/CONTRIBUTING.md#using-the-issue-tracker) and search for existing and closed issues. If your problem or idea is not addressed yet, [please open a new issue](https://github.com/twbs/bootstrap/issues/new).
 
-<p>Starting V10 GeoIP2 support is still built in but not in use, you can manually enable it by unmarking the php syntax then<br />
-Download the GeoIP2 City database from our discord</p>
+Note that **feature requests must target [Bootstrap v4](https://github.com/twbs/bootstrap/tree/v4-dev),** because Bootstrap v3 is now in maintenance mode and is closed off to new features. This is so that we can focus our efforts on Bootstrap v4.
 
-<h2>Setup Instructions</h2>
 
-<p>This document shows a setup sample on a cPanel server, and can be replicated on other setups.</p>
+## Documentation
 
-<ul>
-	<li>Setup your server with Apache, MySQL, PHP <s>7.1-7.4&nbsp;</s>, PHP 8+, Composer, Laravel 10, Node.js 16 &amp; PM2</li>
-	<li>Force Domain SSL</li>
-	<li>Create a new email &amp; password</li>
-	<li>Create a new database and grant all access</li>
-	<li>Import the SQL file located in <code>CASINO/DATABASE/MIGRATIONS/betshopme_8.sql</code></li>
-	<li>
-	<p>Force Domain SSL</p>
-	</li>
-	<li>
-	<p>Generate SSL CRT KEY &amp; BUNDLE COPY THE CONTENTS OF YOUR CRT/KEY/BUNDLE TO FILES IN FOLDER CASINO/PTWEBSOCKET/SSL/ Create a new email &amp; password</p>
+Bootstrap's documentation, included in this repo in the root directory, is built with [Jekyll](https://jekyllrb.com/) and publicly hosted on GitHub Pages at <https://getbootstrap.com/>. The docs may also be run locally.
 
-	<p>&nbsp;</p>
-	</li>
-	<li>
-	<p>Create a new database Grant all access Import the SQL file located in folder CASINO/DATABASE/MIGRATIONS/betshopme_8.sql via PHPMYADMIN to the database --extra DB file not required (experimentalarcadegames.sql) unless you are experimenting with arcade games Zip<br />
-	-----File Uploads-----</p>
-	</li>
-	<li>
-	<p>Casino.zip and public_html.zip should be unzipped in the following manner public_html &rarr; this is your public directory casino &rarr; this goes outside your public folder for security so it becomes YOUR ROOT FOLDER /casino /public_html If you decide to move your casino folder INSIDE public_html You have to modify two things 1: open index.php inside public_html and replace all folder paths ( ./../casino portion to ./casino/ ) 2: MUST configure .htaccess to deny .env files or all dot files ( google dot files protection via htaccess)</p>
-	</li>
-	<li>
-	<p>//**** extra tip since it contains demo user accounts Generate new password hash for existing users and run this in phpmyadmin (replace hash)&nbsp;<a href="https://bcrypt-generator.com/" rel="nofollow">https://bcrypt-generator.com/</a>&nbsp;If you need to has a new word. Example : (run this in phpmyadmin) UPDATE w_users SET password = &#39;$2a$12$s1RpwEx/oTL3vYQGZjC33eBHECRJb7gkjmAk9Tmyefub7gQ4nh8XS&#39;;</p>
+### Running documentation locally
 
-	<p>This has makes all users have password : Test123 ********///</p>
-	</li>
-</ul>
+1. If necessary, [install Jekyll](https://jekyllrb.com/docs/installation/) and other Ruby dependencies with `bundle install`.
+   **Note for Windows users:** Read [this guide](https://jekyllrb.com/docs/installation/windows/) to get Jekyll up and running without problems.
+2. From the root `/bootstrap` directory, run `bundle exec jekyll serve` in the command line.
+4. Open `http://localhost:9001` in your browser, and voilà.
 
-<h2>SSL Specific Instructions</h2>
+Learn more about using Jekyll by reading its [documentation](https://jekyllrb.com/docs/).
 
-<p>Delete self signed if any Generate or install the Lets Encrypt one if you have it Save text file via notepad or direct Certificate: (CRT) ==&gt; crt.crt Private Key (KEY) --&gt; key.key Certificate Authority Bundle: (CABUNDLE) ==&gt; intermediate.pem Go in Folder casino/PTWebSocket/ssl and replace those 3 files --------------- FILE EDITS casino/.env EDIT LINES for domain, database and user/password, email and password EDIT casino/config/app.php (URL line 65 )</p>
+### Documentation for previous releases
 
-<h2>File Edits</h2>
+Documentation for v2.3.2 has been made available for the time being at <https://getbootstrap.com/2.3.2/> while folks transition to Bootstrap 3.
 
-<p>EDIT casino/public/ ALL SOCKET FILES CHANGE YOUR DOMAIN NAMEIF YOU NEED TO CHANGE PORTS YOU CAN DO SO HERE AS WELLGames downloads Find download packages at discord&nbsp;<a href="https://discord.gg/HscTu67FSu" rel="nofollow">https://discord.gg/HscTu67FSu</a>&nbsp;Currently ~ 1000 games &ndash; 40 GB total. Go to /home/USERNAME/public_html/ <span style="color:#ff0000">Password is : password</span> Download the core + 3 game packs Unpack<br />
-(Unix Tip : upload one zip file, install 7z, unpack with:: 7z x -ppassword file.zip ) ---</p>
+[Previous releases](https://github.com/twbs/bootstrap/releases) and their documentation are also available for download.
 
-<h2>Games Downloads</h2>
 
-<p>Find download packages at Discord: <a href="https://discord.gg/HscTu67FSu">https://discord.gg/HscTu67FSu</a></p>
+## Contributing
 
-<p>Currently ~1000 games &ndash; 40 GB total.</p>
+Please read through our [contributing guidelines](https://github.com/twbs/bootstrap/blob/master/CONTRIBUTING.md). Included are directions for opening issues, coding standards, and notes on development.
 
-<h2>PM2 Commands</h2>
+Moreover, if your pull request contains JavaScript patches or features, you must include [relevant unit tests](https://github.com/twbs/bootstrap/tree/master/js/tests). All HTML and CSS should conform to the [Code Guide](https://github.com/mdo/code-guide), maintained by [Mark Otto](https://github.com/mdo).
 
-<p>PM2 COMMANDS <a href="https://pm2.keymetrics.io/docs/usage/quick-start/" rel="nofollow">https://pm2.keymetrics.io/docs/usage/quick-start/</a>&nbsp;</p>
+**Bootstrap v3 is now closed off to new features.** It has gone into maintenance mode so that we can focus our efforts on [Bootstrap v4](https://github.com/twbs/bootstrap/tree/v4-dev), the future of the framework. Pull requests which add new features (rather than fix bugs) should target [Bootstrap v4 (the `v4-dev` git branch)](https://github.com/twbs/bootstrap/tree/v4-dev) instead.
 
-<p>FROM INSIDE&nbsp;PTWEBSOCKET webfolder COMMANDS::<br />
-<strong>pm2 start Arcade.js --watch </strong></p>
+Editor preferences are available in the [editor config](https://github.com/twbs/bootstrap/blob/master/.editorconfig) for easy use in common text editors. Read more and download plugins at <https://editorconfig.org/>.
 
-<p><strong>pm2 start Server.js --watch </strong></p>
 
-<p><strong>pm2 start Slots.js --watch </strong></p>
+## Community
 
-<p>OR if you tested before and not expecting errors, all in one command :</p>
+Get updates on Bootstrap's development and chat with the project maintainers and community members.
 
-<p><strong>pm2 start Arcade.js --watch &amp;&amp; pm2 start Server.js --watch &amp;&amp; pm2 start Slots.js &ndash;watch</strong><br />
-<br />
-SAMPLE USEFUL COMMANDS<br />
-pm2 stop all<br />
-pm2 delete all<br />
-pm2 flush<br />
-pm2 logs<br />
-all commands on&nbsp;<a href="https://pm2.keymetrics.io/docs/usage/quick-start/" rel="nofollow">https://pm2.keymetrics.io/docs/usage/quick-start/</a>&nbsp;<br />
-<br />
-extra tool can be used called wscat (install via ssh)wscat -c &quot;wss://domain:PORT/slots&#39; &lt;--- as an example to make sure you get connected msgOpen ports in Firewall 22154 22188 22197 (or whatever you set your Socket file ports to) Run site :: it should work now if everything was setup correctly.<br />
-<br />
-Visual Edits : To change Sliders Text, and footer notes / terms and conditions. Edit : \casino\resources\lang\en\app.php Lines 1255 ++ include text in frontpage Sliders are in root folder /woocasino/ for easy access and change (slider1,2,3,4,5 and for mobile mslider1,2,3,4,5)</p>
+* Follow [@getbootstrap on Twitter](https://twitter.com/getbootstrap).
+* Read and subscribe to [The Official Bootstrap Blog](https://blog.getbootstrap.com/).
+* Join [the official Slack room](https://bootstrap-slack.herokuapp.com/).
+* Chat with fellow Bootstrappers in IRC. On the `irc.freenode.net` server, in the `##bootstrap` channel.
+* Implementation help may be found at Stack Overflow (tagged [`twitter-bootstrap-3`](https://stackoverflow.com/questions/tagged/twitter-bootstrap-3)).
+* Developers should use the keyword `bootstrap` on packages which modify or add to the functionality of Bootstrap when distributing through [npm](https://www.npmjs.com/search?q=keywords:bootstrap) or similar delivery mechanisms for maximum discoverability.
 
-<h2>Troubleshooting</h2>
 
-<p>Minor troubleshooting if your composer/artisan not ran correctly</p>
+## Versioning
 
-<p>php artisan cache:clear &amp;&amp; php artisan view:clear &amp;&amp; php artisan config:clear &amp;&amp; php artisan event:clear &amp;&amp; php artisan route:clear</p>
+For transparency into our release cycle and in striving to maintain backward compatibility, Bootstrap is maintained under [the Semantic Versioning guidelines](https://semver.org/). Sometimes we screw up, but we'll adhere to those rules whenever possible.
 
-<h2>URL Troubleshooting</h2>
+See [the Releases section of our GitHub project](https://github.com/twbs/bootstrap/releases) for changelogs for each release version of Bootstrap. Release announcement posts on [the official Bootstrap blog](https://blog.getbootstrap.com/) contain summaries of the most noteworthy changes made in each release.
 
-<p>URL TROUBLESHOOTING 404 ERROR MAKE SURE YOUR HTACCESS WAS GENERATED, CORRECTLY AND DID HAVE PROPER DATA, OR MANUALLY COPY PASTE PROVIDED HTACCESS&nbsp;</p>
 
-<p>&nbsp;</p>
+## Thanks
+
+<img src="https://live.browserstack.com/images/opensource/browserstack-logo.svg" alt="BrowserStack Logo" width="490" height="106">
+
+Thanks to [BrowserStack](https://www.browserstack.com/) for providing the infrastructure that allows us to test in real browsers!
+
+
+## Creators
+
+**Mark Otto**
+
+* <https://twitter.com/mdo>
+* <https://github.com/mdo>
+
+**Jacob Thornton**
+
+* <https://twitter.com/fat>
+* <https://github.com/fat>
+
+
+## Copyright and license
+
+Code and documentation copyright 2011-2019 Twitter, Inc. Code released under [the MIT license](https://github.com/twbs/bootstrap/blob/master/LICENSE). Docs released under [Creative Commons](https://github.com/twbs/bootstrap/blob/master/docs/LICENSE).
